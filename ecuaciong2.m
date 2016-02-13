@@ -7,7 +7,7 @@ pImg=0;
 if((a~=0)&(b~=0)&(c~=0))
 	a2 = a*2;
 	d = b*b-4.0*a*c;
-		else if(d>0)
+		if(d>0)
 			d=sqrt(d);
 			raiz1=(-b + d)/a2;
 			raiz2=(-b - d)/a2;
@@ -23,10 +23,10 @@ end
 %ecuación no cuadrática			
 if((a==0)&(b==0)&(c==0))
 		fprintf('Cualquier x es solucion\n')
-	else if((a==0)&(b~=0))
+	if((a==0)&(b~=0))
 		x=-(c/b);
 		fprintf('La solucion es %f\n',x)
-	else if((a==0)&(b==0)&(c~=0))
+	if((a==0)&(b==0)&(c~=0))
 		fprintf('ningun x es solucion\n')
 end
 end
