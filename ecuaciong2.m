@@ -29,3 +29,4 @@ if((a==0)&(b==0)&(c==0))
 	else if((a==0)&(b==0)&(c~=0))
 		fprintf('ningun x es solucion\n')
 end
+end
