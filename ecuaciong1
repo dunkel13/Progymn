@@ -1,3 +1,4 @@
+vim: sintax=m 
 function x= ecuaciong1(a,b);
 if(a~=0)
 	x=-(b/a);
