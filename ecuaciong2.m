@@ -10,7 +10,8 @@ if(a==0)
   if(b==0)
     if(c==0)
       fprintf('Cualquier x es solucion \n')
-        else ('ningun x es solucion \n')
+        else 
+          fprintf('ningun x es solucion \n')
      end
   else
     fprintf('La solucion es %f \n', x3)
