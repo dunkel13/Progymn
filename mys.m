@@ -1,4 +1,4 @@
-function u=mysort(u)
+function u=mys(u)
 
 n=length(u);
 
