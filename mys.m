@@ -1,5 +1,4 @@
 function u=mys(u)
-
 n=length(u);
 
 for i=1:n
