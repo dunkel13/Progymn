@@ -2,7 +2,7 @@ x=input('ingrese un numero \n')
 suma=0;
 c=0;
 
-for i=1:1000000
+for i=1:x*x
   ter= 1/(sqrt(i));
   suma=suma+ter;
   c=c+1;
