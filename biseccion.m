@@ -35,3 +35,7 @@ for i=1:M
 %		r=c;
 %		break;
 end
+
+function y=fbp(x)
+
+y=x*x-2;
