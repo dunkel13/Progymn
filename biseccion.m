@@ -5,6 +5,10 @@
 %		Nmax : Numero maximo de iteraciones
 %		tolin: tolerancia para distancia ultimo intervalo
 % 		tolres: toleracia para el residuo
+function f=fparabiseccion(x)
+
+f=x-cos(x);
+
 function biseccion(a,b,Nmax,tolint, tolres)
 
 fa=fparabiseccion(a);
