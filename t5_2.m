@@ -45,8 +45,8 @@ else
   plot(u,u*0,'-y*')
   end
   hold on
-  %if(x0~=D(1) && x0~=D(2) && x0~=D(3) && x0~=D(4))
-  %plot(u,u*0,'-k*')
-  %end
+  if(x0~=D(1) && x0~=D(2) && x0~=D(3) && x0~=D(4))
+  plot(u,u*0,'-k*')
+  end
 end
 end				
