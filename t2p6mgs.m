@@ -7,7 +7,7 @@ A2=diag(ones(N-3,1),3);
 A3=diag(ones(N-3,1),-3);
 
 A=a*A1+A2+A3;
-% los valores de a para los cuales Gauss-Siedel converge son
+% los valores de a para los cuales Jacobi converge son
 % a=[-10:-1.1] && [1.1:10]
 b=ones(N,1);
 
