@@ -4,7 +4,7 @@ N=3;
 A1=diag(ones(N,1));
 A2=diag(ones(N-2,1),2);
 A3=diag(ones(N-2,1),-2);
-
+% en esta parte es 'a' que son los valores de la diagonal
 A=a*A1+A2+A3;
 
 b=ones(N,1);
