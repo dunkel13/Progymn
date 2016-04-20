@@ -13,14 +13,14 @@ tolres=0.000000001;
 tolinc=0.000000001;
 x0=0*b;
 
-Mjac=diag(diag(A));
+M=diag(diag(A));
 
 for k=1:Nmax
 
 % residuo
 	r=b-A*x0;
 % resuelvo sistema lineal con M de Gauss-Siedel
-	delta=Mjac\r;
+	delta=M\r;
 	fprintf('norma inc(%d) = %.10f \n',k,norm(delta));
 % calculo nuevo iterado
 	x1=x0+delta;
