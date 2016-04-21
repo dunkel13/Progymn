@@ -5,7 +5,7 @@ end
 function r=exam2p2sc2(x0,Nmax,tolres,tolinc)
 % ezplot('(x.^2 +4)*e^(2*sin(x)+sin(cos(x))-1)*cos(x)*sin(x) -e^(sin(x)) + 1/2')
 % se implementa el metodo de la secante para
-% resolver la ecuacion de fparamorenop3s3 
+% resolver la ecuacion de fparaexam2p2sc2 
 
 x1=x0+0.01;
 f0=fparaexam2p2sc2(x0);
