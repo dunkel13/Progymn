@@ -6,7 +6,7 @@ end
 function a=exam2p3s3(x0,Nmax,tolres,tolinc)
 % ezplot('15*cos(2*pi/5 -x)/(sin(2*pi/5 -x)*sin(2*pi/5 -x)) - 10*cos(x)/(sin(x)*sin(x))')
 % se implementa el metodo de la secante para
-% calcular alfa que es solucion de la ecuacion fparamorenop3s3 y
+% calcular alfa que es solucion de la ecuacion fparaexam2p3s3 y
 % hallar la longitud L de la barra
 
 x1=x0+0.01;
