@@ -1,3 +1,8 @@
+function fs=fparaexam2p3s3(x)
+u=2*pi/5;
+fs=((15*cos(u-x))/(sin(u-x)*sin(u-x)))-((10*cos(x))/(sin(x)*sin(x)));
+end
+
 function a=exam2p3s3(x0,Nmax,tolres,tolinc)
 % ezplot('15*cos(2*pi/5 -x)/(sin(2*pi/5 -x)*sin(2*pi/5 -x)) - 10*cos(x)/(sin(x)*sin(x))')
 % se implementa el metodo de la secante para
