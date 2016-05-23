@@ -3,7 +3,7 @@
 % xi puntos
 % wi pesos
 % Cambio de intervalo de [a,b] a [-1,1]
-% integral de a a b de f(x)dx = (b-a)/2*sumatoria desde i=1 hasta n de wi*f((b-a)/2*xi + (a+b)/2) 
+% integral de a a b de f(x)dx = (b-a)/2*sumatoria desde i=1 hasta n de wi*f((b-a)/2*xi + (a+b))/2 
 N=1
 x1=0
 w1=2
